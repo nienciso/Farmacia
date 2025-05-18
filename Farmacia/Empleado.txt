@@ -1,0 +1,66 @@
+    public class Empleado
+    {
+        private string usuario;
+        private string contrasena;
+        private string nombre;
+
+        public string Usuario
+        {
+            get { return usuario; }
+            set
+            {
+                string usuario = value.ToString();
+
+                if (value.Trim().Length > 0)
+                    usuario = value;
+
+                else
+                    throw new Exception("Ingrese un usuario, no puede estar vacio");
+
+            }
+        }
+
+        public string Nombre
+        {
+            get { return nombre; }
+            set
+            {
+                string nombre = value.ToString();
+
+                if (value.Trim().Length > 0)
+                    nombre = value;
+
+                else
+                    throw new Exception("Ingrese un nombre, no puede estar vacio");
+
+            }
+        }
+
+        public string Contrasena
+        {
+            get { return contrasena; }
+            set
+            {
+                string contrasena = value.ToString();
+
+                if (value.Trim().Length > 0)
+                    contrasena = value;
+
+                else
+                    throw new Exception("Ingrese una Contraseña, no puede estar vacio");
+
+            }
+        }
+
+        public Empleado(string usuario, string nombre, string contrasena)
+        {
+            Usuario = usuario;
+            Nombre = nombre;
+            Contrasena = contrasena;
+        }
+
+        public override string ToString()
+        {
+            return "\n - Usuario : " + Usuario + "\n - nombre : " + nombre + "\n - Contraseña : " + contrasena;
+        }
+    }

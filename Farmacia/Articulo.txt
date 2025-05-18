@@ -1,0 +1,96 @@
+ public class Articulo
+    {
+        private string codigo;
+        private string nombre;
+        private string tamaño;
+        private string codigoCategoria;
+        private string tipoPresentacion;
+        private decimal precio;
+
+        public string Codigo
+        {
+            get { return codigo; }
+            set
+            {
+                if (value.Trim().Length > 0)
+                    codigo = value;
+                else
+                    throw new Exception("Ingrese un Código, no puede estar vacío.");
+            }
+        }
+
+        public string Nombre
+        {
+            get { return nombre; }
+            set
+            {
+                if (value.Trim().Length > 0)
+                    nombre = value;
+                else
+                    throw new Exception("Ingrese un Nombre, no puede estar vacío.");
+            }
+        }
+
+        public string Tamaño
+        {
+            get { return tamaño; }
+            set
+            {
+                if (value.Trim().Length > 0)
+                    tamaño = value;
+                else
+                    throw new Exception("Ingrese un Tamaño, no puede estar vacío.");
+            }
+        }
+
+        public string CodigoCategoria
+        {
+            get { return codigoCategoria; }
+            set
+            {
+                if (value.Trim().Length > 0)
+                    codigoCategoria = value;
+                else
+                    throw new Exception("Ingrese un Código de Categoría, no puede estar vacío.");
+            }
+        }
+
+        public string TipoPresentacion
+        {
+            get { return tipoPresentacion; }
+            set
+            {
+                if (value.Trim().Length > 0)
+                    tipoPresentacion = value;
+                else
+                    throw new Exception("Ingrese un Tipo de Presentación, no puede estar vacío.");
+            }
+        }
+
+        public decimal Precio
+        {
+            get { return precio; }
+            set
+            {
+                if (value > 0)
+                    precio = value;
+                else
+                    throw new Exception("El precio debe ser mayor a 0.");
+            }
+        }
+
+        public Articulo(string codigo, string nombre, string tamaño, string codigoCategoria, string tipoPresentacion, decimal precio)
+        {
+            Codigo = codigo;
+            Nombre = nombre;
+            Tamaño = tamaño;
+            CodigoCategoria = codigoCategoria;
+            TipoPresentacion = tipoPresentacion;
+            Precio = precio;
+        }
+
+        public override string ToString()
+        {
+            return "\n - Código: " + Codigo + "\n - Nombre: " + Nombre + "\n - Tamaño: " + Tamaño + "\n - Código Categoría: " + CodigoCategoria + "\n - Tipo Presentación: " + TipoPresentacion + "\n - Precio: " + Precio;
+        }
+    }

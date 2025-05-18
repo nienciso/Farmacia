@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UnaMPEmpleado.master.cs" Inherits="Presentacion.UnaMPEmpleado" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:Menu ID="Menu1" runat="server" OnMenuItemClick="Menu1_MenuItemClick">
+                <Items>
+                    <asp:MenuItem Text="Menú Principal" Value="Menú Principal" NavigateUrl="~/Bienvenida.aspx">
+                        <asp:MenuItem NavigateUrl="~/LogueoEmpleado.aspx?logout=True" Text="SALIR" Value="SALIR"></asp:MenuItem>
+                    </asp:MenuItem>
+                </Items>
+            </asp:Menu>
+            <br/>
+            <asp:Label ID="lblEmpleado" runat="server" Font-Bold="true" ForeColor="Blue"></asp:Label>
+            <br/><br/>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

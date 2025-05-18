@@ -1,0 +1,143 @@
+    public class Venta
+    {
+        private int numeroVenta;
+        private DateTime fecha;
+        private string estado;
+        private string direccion;
+        private string cantidadNumero;
+        private string usuario;
+        private string codigo;
+        private string cedula;
+
+        public int NumeroVenta
+        {
+            get { return numeroVenta; }
+        }
+
+        public DateTime Fecha
+        {
+            get { return fecha; }
+            set
+            {
+                if (value <= DateTime.Now)
+                    fecha = value;
+                else
+                    throw new Exception("Tiene que ingresar una fecha adecudada");
+            }
+        }
+
+        public string Estado
+        {
+            get { return estado; }
+            set
+            {
+                string estado = value.ToString();
+
+                if (value.Trim().Length > 0)
+                    estado = value;
+
+                else
+                    throw new Exception("Ingrese un estado, no puede estar vacio");
+
+            }
+        }
+
+        public string Direccion
+        {
+            get { return direccion; }
+            set
+            {
+                string direccion = value.ToString();
+
+                if (value.Trim().Length > 0)
+                    direccion = value;
+
+                else
+                    throw new Exception("Ingrese una Direccion, no puede estar vacio");
+
+            }
+        }
+
+        public string CantidadNumero
+        {
+            get { return cantidadNumero; }
+            set
+            {
+                try
+                {
+                    int cantidad = int.Parse(value);
+                    cantidadNumero = value;
+                }
+                catch (Exception)
+                {
+                    throw new Exception("La cantidad debe ser un número válido.");
+                }
+            }
+        }
+
+        public string Usuario
+        {
+            get { return usuario; }
+            set
+            {
+                string usuario = value.ToString();
+
+                if (value.Trim().Length > 0)
+                    usuario = value;
+
+                else
+                    throw new Exception("Ingrese un Usuario, no puede estar vacio");
+
+            }
+        }
+
+        public string Codigo
+        {
+            get { return codigo; }
+            set
+            {
+                string codigo = value.ToString();
+
+                if (value.Trim().Length > 0)
+                    codigo = value;
+
+                else
+                    throw new Exception("Ingrese un codigo, no puede estar vacio");
+
+            }
+        }
+
+        public string Cedula
+        {
+            get { return cedula; }
+            set
+            {
+                string cedulaTemp = value.Trim();
+
+                if (cedulaTemp.Length == 8 && cedulaTemp.All(char.IsDigit))
+                {
+                    cedula = cedulaTemp;
+                }
+                else
+                {
+                    throw new Exception("La cédula debe tener exactamente 8 dígitos y ser numérica.");
+                }
+            }
+        }
+
+        public Venta(int NumeroVenta, DateTime Fecha, string Estado, string Direccion, string CantidadNumero, string Usuario, string Cedula)
+        {
+            NumeroVenta = numeroVenta;
+            Fecha = fecha;
+            Estado = estado;
+            Direccion = direccion;
+            CantidadNumero = cantidadNumero;
+            Usuario = usuario;
+            Cedula = cedula;
+        }
+
+        public override string ToString()
+        {
+            return "\n - Numero Venta : " + numeroVenta + "\n - Fecha : " + Fecha + "\n - Estado : " + estado + "\n - Direccion : " + Direccion + "\n - Cantidad Numero : " + CantidadNumero + "\n - Usuario : " + Usuario + "\n - Cedula : " + Cedula;
+        }
+    }

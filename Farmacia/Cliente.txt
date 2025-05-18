@@ -1,0 +1,88 @@
+   public class Cliente
+    {
+        private string cedula;
+        private string nombre;
+        private string numeroTarjeta;
+        private string telefono;
+
+        public string Cedula
+        {
+            get { return cedula; }
+            set
+            {
+                string cedula = value.ToString();
+
+                if (value.Trim().Length > 0)
+                    cedula = value;
+
+                else
+                    throw new Exception("Ingrese una cedula, no puede estar vacio");
+
+            }
+        }
+
+        public string Nombre
+        {
+            get { return nombre; }
+            set
+            {
+                string nombre = value.ToString();
+
+                if (value.Trim().Length > 0)
+                    nombre = value;
+
+                else
+                    throw new Exception("Ingrese un nombre, no puede estar vacio");
+
+            }
+        }
+
+        public string NumeroTarjeta
+        {
+            get { return numeroTarjeta; }
+            set
+            {
+                string numeroTarjetaDigit = value.Trim();
+
+                if (numeroTarjetaDigit.Length == 19 && numeroTarjetaDigit.All(c => char.IsDigit(c) || c == '-'))
+                {
+                    numeroTarjeta = numeroTarjetaDigit;
+                }
+                else
+                {
+                    throw new Exception("La tarjeta debe tener exactamente 19 caracteres, solo números y guiones.");
+                }
+            }
+        }
+
+        public string Telefono
+        {
+            get { return telefono; }
+            set
+            {
+                string telefonoDigit = value.ToString();
+
+                if (telefonoDigit.Length == 9 && telefonoDigit.All(char.IsDigit))
+                {
+                    telefono = telefonoDigit;
+                }
+                else
+                {
+                    throw new Exception("El Telefono debe tener exactamente 9 digitos.");
+                }
+            }
+        }
+
+        public Cliente(string cedula, string nombre, string numeroTarjeta, string Telefono)
+        {
+            Cedula = cedula;
+            Nombre = nombre;
+            NumeroTarjeta = numeroTarjeta;
+            Telefono = telefono;
+        }
+
+        public override string ToString()
+        {
+            return "\n - Cedula : " + Cedula + "\n - Nombre : " + Nombre + "\n - NumeroTarjeta : " + NumeroTarjeta + "\n - Telefono : " + Telefono;
+        }
+    }

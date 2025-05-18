@@ -1,0 +1,24 @@
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Logica\bin\Debug\Logica.dll
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Logica\bin\Debug\Logica.pdb
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Logica\bin\Debug\Farmacia.dll
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Logica\bin\Debug\Persistencia.dll
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Logica\bin\Debug\Farmacia.pdb
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Logica\bin\Debug\Persistencia.pdb
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Logica\obj\Debug\Logica.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Logica\obj\Debug\Logica.dll
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Logica\obj\Debug\Logica.pdb
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Logica\bin\Debug\Farmacia.exe.config
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Logica\bin\Debug\Logica.dll
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Logica\bin\Debug\Logica.pdb
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Logica\bin\Debug\Farmacia.dll
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Logica\bin\Debug\Persistencia.dll
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Logica\bin\Debug\Farmacia.pdb
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Logica\bin\Debug\Farmacia.exe.config
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Logica\bin\Debug\Persistencia.pdb
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Logica\obj\Debug\Logica.dll
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Logica\obj\Debug\Logica.pdb

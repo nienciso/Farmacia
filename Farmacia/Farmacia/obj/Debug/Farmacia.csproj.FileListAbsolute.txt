@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Farmacia\bin\Debug\Farmacia.dll
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Farmacia\bin\Debug\Farmacia.pdb
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Farmacia\obj\Debug\Farmacia.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Farmacia\obj\Debug\Farmacia.dll
+C:\Users\User\Desktop\Farmacia - Bios - Proyecto Final - Nicolas Enciso\Farmacia\Farmacia\obj\Debug\Farmacia.pdb
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Farmacia\bin\Debug\Farmacia.dll
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Farmacia\bin\Debug\Farmacia.pdb
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Farmacia\obj\Debug\Farmacia.dll
+C:\Users\User\Desktop\Proyecto Final - Bios - .NET framework\Farmacia\Farmacia\obj\Debug\Farmacia.pdb
